@@ -1,0 +1,129 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    border: 0;
+        
+}
+
+
+header{
+    background: black;
+    padding: 30px;
+    opacity: 0.8;
+}
+
+header .header a{
+    font-size: 40px;
+    
+}
+
+/*
+header .header a:hover{
+    text-shadow: 2px;
+    
+    
+}*/
+
+
+header .header nav {
+    width: 60%;
+    float: right;
+    text-align: center;
+    
+}
+
+header .header nav ul li{
+    color: aliceblue;
+    display: inline-block;
+    padding: 3px;
+    margin: 10px;
+}
+
+
+content{
+    margin: 100px;
+    
+}
+
+content .content1 {
+    background: url(car3.jpg) 100%;
+    background-size: cover;
+    margin: 0px;
+    
+}
+content .content2 {
+    background: url(car2.jpg) 100%;
+    background-size: cover;
+    
+}
+
+content .content3 {
+    background: url(car3.jpg) 100%;
+    background-size: cover;
+    
+}
+
+content .content4 {
+    background: url(car4.jpg) 100%;
+    background-size: cover;
+    
+}
+
+
+h1{
+    text-align: center;
+    color: red;
+    opacity: 0.6;
+    font-size: 500px;
+    padding: 100px;
+    margin-top: 5px;
+    margin-bottom: 50px;
+    
+}
+
+
+h2{
+    text-align: center;
+    font-size: 50px;
+    text-transform: uppercase;
+    color: aqua;
+}
+
+p{
+    color: aliceblue;
+}
+
+
+.parallax1{
+    background: url("http://www.w3newbie.com/wp-content/uploads/parallax-2.jpg") repeat fixed 100%;
+    background-size: cover;
+    
+}
+
+.parallax2{
+    background: url("car.jpg") repeat fixed 100%;
+    background-size: cover;
+    
+}
+
+.parallax3{
+    background: url("http://www.w3newbie.com/wp-content/uploads/parallax-2.jpg") repeat fixed 100%;
+    background-size: cover;
+    
+}
+
+
+.parallax-inner{
+    padding: 200px;
+}
+
+.footer{
+    background: black;
+    opacity: 0.65;
+    text-align: center;
+    padding: 20px;
+}
+hr {
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+}
